@@ -5,7 +5,7 @@ public class FormaG implements Desenho {
 
 	@Override
 	public void desenha() {
-		System.out.println("d)\n\n");
+		System.out.println("g)\n\n");
 		for(int i=0; i<size; i++){
 			for (int j=size; j>=0; j--){
 				if (i==0 || i==(size-1)){

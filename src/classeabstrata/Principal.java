@@ -16,7 +16,6 @@ class Principal {
 		lista.add(new FormaG());
 		lista.add(new FormaH());
 		lista.add(new FormaI());
-		lista.add(new FormaJ());
 		lista.add(new FormaM());
 		
 		

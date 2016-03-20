@@ -20,7 +20,7 @@ class Principal {
 		
 		
 		for (Desenho d : lista) {
-			d.desenhar();
+			d.desenha();
 		}
 	}
 }

@@ -5,8 +5,8 @@ class FormaF extends DesenhoAbstrato {
 
 	@Override
 	protected String getNome() {
-		// TODO Auto-generated method stub
-		return null;
+		
+		return "f";
 	}
 
 	@Override
@@ -23,8 +23,8 @@ class FormaF extends DesenhoAbstrato {
 					}
 				}
 			}
-			
-		}	
+			System.out.print("\n");
+		}
 	}
 
 }

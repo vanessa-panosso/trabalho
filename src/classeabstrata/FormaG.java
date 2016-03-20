@@ -4,8 +4,7 @@ public class FormaG extends DesenhoAbstrato {
 
 	@Override
 	protected String getNome() {
-		// TODO Auto-generated method stub
-		return null;
+		return "g";
 	}
 	public static int size = 10;
 

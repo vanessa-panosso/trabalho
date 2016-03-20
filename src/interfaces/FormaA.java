@@ -5,7 +5,7 @@ package interfaces;
 
 	@Override
 	public void desenha() {
-		System.out.println("b)\n\n");
+		System.out.println("a)\n\n");
 		for (int i=0; i<size; i++){
 			for (int j=0; j<size; j++){
 				if (j<=i){
