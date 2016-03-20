@@ -1,22 +1,21 @@
 package interfaces;
 
- class FormaA implements Desenho {
+ class FormaB implements Desenho {
 	public static int size = 10;
 
 	@Override
 	public void desenha() {
 		System.out.println("b)\n\n");
 		for (int i=0; i<size; i++){
-			for (int j=0; j<size; j++){
-				if (j<=i){
+			for (int j=size; j>=0; j--){
+				if (i<j){
 					System.out.print("*");
-				}else{
+				}else {
 					System.out.print(" ");
 				}
 			}
 			System.out.print("\n");
-		}	
-
+		}
 	}
 
 }

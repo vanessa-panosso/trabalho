@@ -1,24 +1,25 @@
 package classeabstrata;
 
- class FormaA extends DesenhoAbstrato {
-	public static int size = 8;
+ class FormaB extends DesenhoAbstrato {
+	public static int size = 10;
+
 	@Override
 	protected String getNome() {
-		return "a";
+		return "b";
 	}
 
 	@Override
 	protected void desenhar() {
 		for (int i=0; i<size; i++){
-			for (int j=0; j<size; j++){
-				if (j<=i){
+			for (int j=size; j>=0; j--){
+				if (i<j){
 					System.out.print("*");
-				}else{
+				}else {
 					System.out.print(" ");
 				}
 			}
 			System.out.print("\n");
-		}	
+		}
 
 	}
 
